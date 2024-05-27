@@ -89,12 +89,20 @@ write_degrees("напівстепені виходу нового напрямл
 
 paths_2 = find_paths_2(directed_matrix_2)
 paths_3 = find_paths_3(directed_matrix_2)
+
 print("Всі шляхи довжиною 2")
-for path in paths_2:
-    print(path)
-print("\nВсі шляхи довжиною 3")
-for path in paths_3:
-    print(path)
+path_2_length = len(paths_2)
+for i in range(path_2_length):
+    print(paths_2[i], end = ", ")
+    if i % 6 == 5:
+        print()
+
+print("\n\nВсі шляхи довжиною 3")
+path_3_length = len(paths_3)
+for i in range(path_3_length):
+    print(paths_3[i], end = ", ")
+    if i % 5 == 4:
+        print()
 
 compositions = get_all_compositions(directed_matrix_2)
 reachability_matrix = get_reachability_matrix(compositions)

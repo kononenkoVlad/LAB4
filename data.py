@@ -1,9 +1,10 @@
 window_width = 1100
-window_height = 600
+window_height = 1000
 vertex_size = 20
-graph_size = 200
+graph_size = 150
 space_between_edges = 5
 extra_angle_in_self_arrow = 0.2
 count_of_vertexes = 11
 seed_value = 3110
-k = 0.73
+k_1 = 0.69
+k_2 = 0.725

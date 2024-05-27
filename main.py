@@ -16,15 +16,11 @@ print("матриця напрямленого графа:")
 directed_matrix1 = create_matrix_for_directed_graph(count_of_vertexes, k_1)
 for row in directed_matrix1:
     print(row)
-#     create_vertexes(300, 300, graph_size, count_of_vertexes, canvas)
-# draw_edges(directed_matrix1, vertexes_for_directed_graph, True, canvas)
 
 print("\nматриця ненапрямленого графа:")
 undirected_matrix = create_matrix_for_undirected_graph(directed_matrix1)
 for row in undirected_matrix:
     print(row)
-#     create_vertexes(800, 300, graph_size, count_of_vertexes, canvas)
-# draw_edges(undirected_matrix, vertexes_for_undirected_graph, False, canvas)
 print()
 
 

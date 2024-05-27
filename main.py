@@ -72,7 +72,7 @@ else:
     print("Список ізольованих вершин: ", list_of_isolated_vertices)
 
 if not len(list_of_hanging_vertices):
-    print("Граф не має фисячих вершин")
+    print("Граф не має висячих вершин")
 else:
     print("Список висячих вершин: ", list_of_hanging_vertices)
 
